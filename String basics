@@ -1,0 +1,19 @@
+st2 = 'Madhav Dhananjay '
+st2l = list(st2)
+print(st2l)
+st3 = st2.replace(" ", "")
+st3l = list(st3)
+print(st3l)
+#unique finding
+st3lu = list(set(st3l))
+print(st3lu)
+#converting all to upper cases
+sU = list(st2.upper())
+print(sU)
+
+"""
+['M', 'a', 'd', 'h', 'a', 'v', ' ', 'D', 'h', 'a', 'n', 'a', 'n', 'j', 'a', 'y', ' ']
+['M', 'a', 'd', 'h', 'a', 'v', 'D', 'h', 'a', 'n', 'a', 'n', 'j', 'a', 'y']
+['h', 'j', 'y', 'D', 'n', 'M', 'd', 'a', 'v']
+['M', 'A', 'D', 'H', 'A', 'V', ' ', 'D', 'H', 'A', 'N', 'A', 'N', 'J', 'A', 'Y', ' ']
+"""
